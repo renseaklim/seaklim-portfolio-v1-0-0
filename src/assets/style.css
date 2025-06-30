@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.5rem;
+  }
+
+  body {
+    font-family: 'Kantumruy Pro', sans-serif;
+    @apply text-dark-primary;
+  }
+
+  ::selection {
+    background: var(--selectBg);
+    color: var(--selectText);
+  }
+}
+
+@layer components {
+
+  .gradient-text {
+    background: linear-gradient(to right, white, #e876f5cb, var(--brand), #3b82f6, white);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-text-gradient 5s linear infinite;
+  }
+
+  .outline-b {
+    outline: 1px solid var(--secondary);
+  }
+
+}
+
+@layer utilities {
+  .text-stroke {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--brand);
+  }
+}
+
+.light {
+  --brand: #A27B5C;
+  --primary: #A27B5C;
+  --secondary: #948979;
+  --third: #e7e1d3;
+  --hover: #202127;
+  --light: #F6F6F7;
+  --selectBg: #a27b5cbb;
+  --selectText: white;
+  background: white;
+}
+
+.dark {
+  --brand: #768C9E;
+  --primary: #1E1E1E;
+  --secondary: #121212;
+  --third: #202127;
+  --hover: #A27B5C;
+  --dark-primary: #1E1E1E;
+  --dark-secondary: #121212;
+  --light: #F6F6F7;
+  --selectBg: #e0e0e0b3;
+  --selectText: #1E1E1E;
+  background: var(--third);
+}
+
+/* navbar */
+.navbar-style {
+  @apply bg-white dark:bg-transparent bg-opacity-80 backdrop-filter backdrop-blur-lg h-14 transition-all duration-700;
+}
+
+@keyframes animate-text-gradient {
+  to {
+    background-position: 200%;
+  }
+}
+
+#cursor-glow {
+  pointer-events: none;
+  position: fixed;
+  width: 15rem;
+  height: 15rem;
+  background: linear-gradient(to right, #e876f5cb, #3b82f6);
+  opacity: 0.9;
+  border-radius: 9999px;
+  filter: blur(50px);
+  transition: opacity 0.3s ease;
+}
+
+
+/* Hero-banner */
+#svgContainer {
+  padding: 32px;
+  text-align: center;
+}
+
+.circle {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  transform-origin: 50% 50%;
+}
+
+#circle-1 {
+  animation-name: circle-1;
+}
+
+#circle-2 {
+  animation-delay: .1s;
+  animation-name: circle-2;
+}
+
+#circle-3 {
+  animation-delay: .2s;
+  animation-name: circle-3;
+}
+
+#circle-4 {
+  animation-delay: .2s;
+  animation-name: circle-4;
+}
+
+@keyframes circle-1 {
+  0% {
+    r: 10
+  }
+
+  50% {
+    r: 50
+  }
+
+  100% {
+    r: 10
+  }
+}
+
+@keyframes circle-2 {
+  0% {
+    r: 10
+  }
+
+  50% {
+    r: 35
+  }
+
+  100% {
+    r: 10
+  }
+}
+
+@keyframes circle-3 {
+  0% {
+    r: 10
+  }
+
+  45% {
+    r: 20
+  }
+
+  55% {
+    r: 20
+  }
+
+  100% {
+    r: 10
+  }
+}
+
+@keyframes circle-4 {
+  0% {
+    r: 10
+  }
+
+  10% {
+    transform: rotateY(0)
+  }
+
+  45% {
+    r: 6
+  }
+
+  55% {
+    r: 6;
+    transform: rotateY(-180deg)
+  }
+
+  100% {
+    r: 10;
+    transform: rotateY(-180deg)
+  }
+}
+
+/* progress bar on navbar */
+
+/* Progress bar */
+
+.progress-bar-container {
+  position: fixed;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f0f0f0;
+  z-index: 9999;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: var(--secondary);
+  transition: all 0.3s ease;
+}
+
+/* progress circle */
+
+.progress-circle-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-circle {
+  width: 4rem;
+  height: 4rem;
+}
+
+.progress-circle-bar {
+  fill: none;
+  stroke: var(--brand);
+  stroke-width: 5;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  transition: stroke-dashoffset 0.3s ease;
+}
+
+.progress-background {
+  fill: transparent;
+  stroke: #ededed;
+  stroke-width: 5;
+  stroke-dasharray: none;
+}
+
+
+.scroll-to-top {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--brand);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.scroll-to-top svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  stroke: white;
+  transition: all 0.1s ease;
+}
