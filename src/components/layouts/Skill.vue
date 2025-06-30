@@ -34,62 +34,62 @@
 let langs = [
     {
         name: "HTML5",
-        path: "@/assets/img/skills/html5.svg"
+        path: "/assets/img/skills/html5.svg"
     },
     {
         name: "CSS3",
-        path: "@/assets/img/skills/css3.svg"
+        path: "/assets/img/skills/css3.svg"
     },
     {
         name: "JavaScript",
-        path: "@/assets/img/skills/js.svg"
+        path: "/assets/img/skills/js.svg"
     },
     {
         name: "PHP",
-        path: "@/assets/img/skills/php.svg"
+        path: "/assets/img/skills/php.svg"
     },
     {
         name: "Python",
-        path: "@/assets/img/skills/python.png"
+        path: "/assets/img/skills/python.png"
     },
     {
         name: "Java",
-        path: "@/assets/img/skills/java.png"
+        path: "/assets/img/skills/java.png"
     },
 ]
 
 let techStack = [
     {
         name: "Vue.js",
-        path: "@/assets/img/skills/vuejs.svg"
+        path: "/assets/img/skills/vuejs.svg"
     },
     {
         name: "Laravel",
-        path: "@/assets/img/skills/laravel.svg"
+        path: "/assets/img/skills/laravel.svg"
     },
     {
         name: "Bootstrap",
-        path: "@/assets/img/skills/bootstrap5.svg"
+        path: "/assets/img/skills/bootstrap5.svg"
     },
     {
         name: "Tailwind CSS",
-        path: "@/assets/img/skills/tailwindcss.svg"
+        path: "/assets/img/skills/tailwindcss.svg"
     },
     {
         name: "Figma",
-        path: "@/assets/img/skills/figma.png"
+        path: "/assets/img/skills/figma.png"
     },
     {
         name: "Postman",
-        path: "@/assets/img/skills/postman.svg"
+        path: "/assets/img/skills/postman.svg"
     },
     {
         name: "MySQL",
-        path: "@/assets/img/skills/mysql.svg"
+        path: "/assets/img/skills/mysql.svg"
     },
     {
         name: "GitHub",
-        path: "@/assets/img/skills/github.svg"
+        path: "/assets/img/skills/github.svg"
     }
 ]
 </script>
