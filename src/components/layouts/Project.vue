@@ -17,7 +17,7 @@
                     <p class="text-brand font-semibold text-lg">Tech Stacks:</p>
                     <div class="flex items-center gap-3 mt-3">
                         <template v-for="techName in project.tech" :key="techName">
-                            <img alt="" class="w-7 h-w-7" v-for="(item, index) in techStack.filter(t => t.name === techName)" :key="index" :src="item.path" >
+                            <img alt="" class="w-7 h-w-7" v-for="(item, index) in techStack.filter(t => t.name === techName)" :key="index" :src="'@/assets/img/skills/'+item.path" >
                         </template>
                     </div>
                 </div>
@@ -88,39 +88,39 @@ const projects = [
 const techStack = [
     {
         name: "HTML5",
-        path: "src/assets/img/skills/html5.svg"
+        path: "html5.svg"
     },
     {
         name: "CSS3",
-        path: "src/assets/img/skills/css3.svg"
+        path: "css3.svg"
     },
     {
         name: "Javascript",
-        path: "src/assets/img/skills/js.svg"
+        path: "js.svg"
     },
     {
         name: "PHP",
-        path: "src/assets/img/skills/php.svg"
+        path: "php.svg"
     },
     {
         name: "Vue.js",
-        path: "src/assets/img/skills/vuejs.svg"
+        path: "vuejs.svg"
     },
     {
         name: "Laravel",
-        path: "src/assets/img/skills/laravel.svg"
+        path: "laravel.svg"
     },
     {
         name: "Bootstrap",
-        path: "src/assets/img/skills/bootstrap5.svg"
+        path: "bootstrap5.svg"
     },
     {
         name: "Tailwind CSS",
-        path: "src/assets/img/skills/tailwindcss.svg"
+        path: "tailwindcss.svg"
     },
     {
         name: "MySQL",
-        path: "src/assets/img/skills/mysql.svg"
+        path: "mysql.svg"
     }
 ]
 </script>
