@@ -33,10 +33,29 @@
 
 </template>
 <script setup>
+import html5 from '@/assets/img/skills/html5.svg'
+import css3 from '@/assets/img/skills/css3.svg'
+import js from '@/assets/img/skills/js.svg'
+import php from '@/assets/img/skills/php.svg'
+import python from '@/assets/img/skills/python.png'
+import java from '@/assets/img/skills/java.png'
+import vuejs from '@/assets/img/skills/vuejs.svg';
+import laravel from '@/assets/img/skills/laravel.svg';
+import bootstrap5 from '@/assets/img/skills/bootstrap5.svg';
+import tailwindcss from '@/assets/img/skills/tailwindcss.svg';
+import figma from '@/assets/img/skills/figma.png';
+import postman from '@/assets/img/skills/postman.svg';
+import mysql from '@/assets/img/skills/mysql.svg';
+import climix from '@/assets/img/projects/climix.png';
+import fruitable from '@/assets/img/projects/fruitable.png';
+import greenchainkh from '@/assets/img/projects/greenchainkh.png';
+import kassar from '@/assets/img/projects/kassar.png';
+import portfolio from '@/assets/img/projects/portfolio-v1.png';
+import pruttika from '@/assets/img/projects/pruttika.png';
 const projects = [
     {
         name: "GreenChainKH - Agricultural Website",
-        img: '/assets/img/projects/greenchainkh.png',
+        img: greenchainkh,
         desc: 'Static website focus on promoting and selling agricultural products',
         tech: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
         isDemo: true,
@@ -44,7 +63,7 @@ const projects = [
     },
     {
         name: "Climix - Environmental Website",
-        img: '/assets/img/projects/climix.png',
+        img: climix,
         desc: 'Static website which promote environmental activities, charities and sell Eco-friendly products',
         tech: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
         isDemo: true,
@@ -52,7 +71,7 @@ const projects = [
     },
     {
         name: "Pruttika - Events Management Website",
-        img: '/assets/img/projects/pruttika.png',
+        img: pruttika,
         desc: 'An events management platform that allow user to create events, sell and manage online tickets',
         tech: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Laravel', 'MySQL'],
         isDemo: true,
@@ -60,7 +79,7 @@ const projects = [
     },
     {
         name: "Kassar - Agriculture Ecommerce Website",
-        img: '/assets/img/projects/kassar.png',
+        img: kassar,
         desc: 'An ecommerce platform that focuses on agricultural products, connecting farmers and consumers through an online market',
         tech: ['Vue.js', 'Laravel', 'MySQL'],
         isDemo: true,
@@ -68,7 +87,7 @@ const projects = [
     },
     {
         name: "Fruitable - Agricultural Ecommerce Website",
-        img: '/assets/img/projects/fruitable.png',
+        img: fruitable,
         desc: 'Static website focus on promoting and selling agricultural products',
         tech: ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'MySQL'],
         isDemo: false,
@@ -76,7 +95,7 @@ const projects = [
     },
     {
         name: "Portfolio v1.0.0",
-        img: '/assets/img/projects/portfolio-v1.png',
+        img: portfolio,
         desc: 'Static website focus on promoting and selling agricultural products',
         tech: ['Vue.js', 'Tailwind CSS'],
         isDemo: false,
@@ -88,39 +107,39 @@ const projects = [
 const techStack = [
     {
         name: "HTML5",
-        path: "html5.svg"
+        path: html5
     },
     {
         name: "CSS3",
-        path: "css3.svg"
+        path: css3
     },
     {
         name: "Javascript",
-        path: "js.svg"
+        path: js
     },
     {
         name: "PHP",
-        path: "php.svg"
+        path: php
     },
     {
         name: "Vue.js",
-        path: "vuejs.svg"
+        path: vuejs
     },
     {
         name: "Laravel",
-        path: "laravel.svg"
+        path: laravel
     },
     {
         name: "Bootstrap",
-        path: "bootstrap5.svg"
+        path: bootstrap5
     },
     {
         name: "Tailwind CSS",
-        path: "tailwindcss.svg"
+        path: tailwindcss
     },
     {
         name: "MySQL",
-        path: "mysql.svg"
+        path: mysql
     }
 ]
 </script>

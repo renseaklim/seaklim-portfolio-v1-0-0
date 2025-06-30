@@ -11,7 +11,7 @@
                 <p class="w-full font-bold text-brand text-3xl max-md:text-xl text-center">Languages</p>
                 <div class="flex items-center justify-center gap-6 w-full flex-wrap">
                     <div class="flex flex-col items-center gap-2" v-for="(skill, index) in langs" :key="index">
-                        <img   :src="'@/assets/img/skills/'+skill.path" :alt="skill.name"
+                        <img   :src="skill.path" :alt="skill.name"
                             class="w-14 h-w-14 max-md:w-8 max-md:h-8 object-contain hover:scale-110 transition-transform duration-300">
                             <p class="text-slate-800 dark:text-light font-semibold max-md:text-xs">{{ skill.name }}</p>
                     </div>
@@ -21,7 +21,7 @@
                 <p class="w-full font-bold text-brand text-3xl max-md:text-xl text-center">Technologies & Tools</p>
                 <div class="flex items-center justify-center gap-6 w-full flex-wrap">
                     <div class="flex flex-col items-center gap-2" v-for="(tech, index) in techStack" :key="index">
-                        <img   :src="'@/assets/img/skills/'+tech.path" :alt="tech.name"
+                        <img   :src="tech.path" :alt="tech.name"
                             class="w-14 h-w-14 max-md:w-8 max-md:h-8 object-contain hover:scale-110 transition-transform duration-300">
                             <p class="text-slate-800 dark:text-light font-semibold max-md:text-xs">{{ tech.name }}</p>
                     </div>
@@ -31,65 +31,57 @@
     </section>
 </template>
 <script setup>
+import html5 from '@/assets/img/skills/html5.svg'
+import css3 from '@/assets/img/skills/css3.svg'
+import js from '@/assets/img/skills/js.svg'
+import php from '@/assets/img/skills/php.svg'
+import python from '@/assets/img/skills/python.png'
+import java from '@/assets/img/skills/java.png'
+import vuejs from '@/assets/img/skills/vuejs.svg';
+import laravel from '@/assets/img/skills/laravel.svg';
+import bootstrap5 from '@/assets/img/skills/bootstrap5.svg';
+import tailwindcss from '@/assets/img/skills/tailwindcss.svg';
+import figma from '@/assets/img/skills/figma.png';
+import postman from '@/assets/img/skills/postman.svg';
+import mysql from '@/assets/img/skills/mysql.svg';
+import github from '@/assets/img/skills/github.svg';
+
 let langs = [
     {
         name: "HTML5",
-        path: "html5.svg"
+        path: html5
     },
     {
         name: "CSS3",
-        path: "css3.svg"
+        path: css3
     },
     {
         name: "JavaScript",
-        path: "js.svg"
+        path: js
     },
     {
         name: "PHP",
-        path: "php.svg"
+        path: php
     },
     {
         name: "Python",
-        path: "python.png"
+        path: python
     },
     {
         name: "Java",
-        path: "java.png"
+        path: java
     },
 ]
 
-let techStack = [
-    {
-        name: "Vue.js",
-        path: "vuejs.svg"
-    },
-    {
-        name: "Laravel",
-        path: "laravel.svg"
-    },
-    {
-        name: "Bootstrap",
-        path: "bootstrap5.svg"
-    },
-    {
-        name: "Tailwind CSS",
-        path: "tailwindcss.svg"
-    },
-    {
-        name: "Figma",
-        path: "figma.png"
-    },
-    {
-        name: "Postman",
-        path: "postman.svg"
-    },
-    {
-        name: "MySQL",
-        path: "mysql.svg"
-    },
-    {
-        name: "GitHub",
-        path: "github.svg"
-    }
-]
+
+const techStack = [
+  { name: 'Vue.js', path: vuejs },
+  { name: 'Laravel', path: laravel },
+  { name: 'Bootstrap', path: bootstrap5 },
+  { name: 'Tailwind CSS', path: tailwindcss },
+  { name: 'Figma', path: figma },
+  { name: 'Postman', path: postman },
+  { name: 'MySQL', path: mysql },
+  { name: 'GitHub', path: github }
+];
 </script>
