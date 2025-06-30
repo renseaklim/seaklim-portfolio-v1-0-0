@@ -17,7 +17,7 @@
                     <p class="text-brand font-semibold text-lg">Tech Stacks:</p>
                     <div class="flex items-center gap-3 mt-3">
                         <template v-for="techName in project.tech" :key="techName">
-                            <img alt="" class="w-7 h-w-7" v-for="(item, index) in techStack.filter(t => t.name === techName)" :key="index" :src="'@/assets/img/skills/'+item.path" >
+                            <img alt="" class="w-7 h-w-7" v-for="(item, index) in techStack.filter(t => t.name === techName)" :key="index" :src="item.path" >
                         </template>
                     </div>
                 </div>
@@ -37,14 +37,10 @@ import html5 from '@/assets/img/skills/html5.svg'
 import css3 from '@/assets/img/skills/css3.svg'
 import js from '@/assets/img/skills/js.svg'
 import php from '@/assets/img/skills/php.svg'
-import python from '@/assets/img/skills/python.png'
-import java from '@/assets/img/skills/java.png'
 import vuejs from '@/assets/img/skills/vuejs.svg';
 import laravel from '@/assets/img/skills/laravel.svg';
 import bootstrap5 from '@/assets/img/skills/bootstrap5.svg';
 import tailwindcss from '@/assets/img/skills/tailwindcss.svg';
-import figma from '@/assets/img/skills/figma.png';
-import postman from '@/assets/img/skills/postman.svg';
 import mysql from '@/assets/img/skills/mysql.svg';
 import climix from '@/assets/img/projects/climix.png';
 import fruitable from '@/assets/img/projects/fruitable.png';
