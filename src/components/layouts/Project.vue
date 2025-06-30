@@ -36,7 +36,7 @@
 const projects = [
     {
         name: "GreenChainKH - Agricultural Website",
-        img: 'src/assets/img/projects/greenchainkh.png',
+        img: '@/assets/img/projects/greenchainkh.png',
         desc: 'Static website focus on promoting and selling agricultural products',
         tech: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
         isDemo: true,
@@ -44,7 +44,7 @@ const projects = [
     },
     {
         name: "Climix - Environmental Website",
-        img: 'src/assets/img/projects/climix.png',
+        img: '@/assets/img/projects/climix.png',
         desc: 'Static website which promote environmental activities, charities and sell Eco-friendly products',
         tech: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
         isDemo: true,
@@ -52,7 +52,7 @@ const projects = [
     },
     {
         name: "Pruttika - Events Management Website",
-        img: 'src/assets/img/projects/pruttika.png',
+        img: '@/assets/img/projects/pruttika.png',
         desc: 'An events management platform that allow user to create events, sell and manage online tickets',
         tech: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Laravel', 'MySQL'],
         isDemo: true,
@@ -60,7 +60,7 @@ const projects = [
     },
     {
         name: "Kassar - Agriculture Ecommerce Website",
-        img: 'src/assets/img/projects/kassar.png',
+        img: '@/assets/img/projects/kassar.png',
         desc: 'An ecommerce platform that focuses on agricultural products, connecting farmers and consumers through an online market',
         tech: ['Vue.js', 'Laravel', 'MySQL'],
         isDemo: true,
@@ -68,7 +68,7 @@ const projects = [
     },
     {
         name: "Fruitable - Agricultural Ecommerce Website",
-        img: 'src/assets/img/projects/fruitable.png',
+        img: '@/assets/img/projects/fruitable.png',
         desc: 'Static website focus on promoting and selling agricultural products',
         tech: ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'MySQL'],
         isDemo: false,
@@ -76,7 +76,7 @@ const projects = [
     },
     {
         name: "Portfolio v1.0.0",
-        img: 'src/assets/img/projects/portfolio-v1.png',
+        img: '@/assets/img/projects/portfolio-v1.png',
         desc: 'Static website focus on promoting and selling agricultural products',
         tech: ['Vue.js', 'Tailwind CSS'],
         isDemo: false,
