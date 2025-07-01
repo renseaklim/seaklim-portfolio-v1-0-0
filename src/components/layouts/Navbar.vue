@@ -7,7 +7,7 @@
             <button class="md:hidden btn-outline" @click="toggleHiddleMenu">
                 <i class="fa-solid fa-bars text-brand text-2xl " id="menu-icon"></i>
             </button>
-            <ul id="nav-item" class="nav-item flex items-center gap-6 transition-all duration-700
+            <ul id="nav-item" class="nav-item flex items-center gap-6 transition-all duration-300
             max-md:absolute max-md:flex-col max-md:h-fit -top-[1000%] left-0 max-md:w-full 
             max-md:item-center max-md:py-6 max-md:mt-14 max-md:bg-secondary max-md:gap-4 " data-visible="false">
                 <li class="nav-link" v-for="link in linkArray" :key="link.name">

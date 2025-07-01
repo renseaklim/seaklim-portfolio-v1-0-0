@@ -35,7 +35,7 @@
   }
 
   .btn-outline{
-    @apply focus:outline focus:outline-[2px] focus:outline-brand p-1 rounded-md;
+    @apply  focus:border-[2px] focus:border-brand p-1 rounded-md;
   }
 }
 
