@@ -21,7 +21,7 @@
                         </template>
                     </div>
                 </div>
-                <div class="absolute bottom-[3%] right-[3%] group-hover:flex gap-4 hidden transition-all duration-300">
+                <div class="absolute bottom-[3%] right-[3%] group-hover:flex gap-4 hidden max-lg:flex transition-all duration-300">
                     <a v-if="project.isDemo" :href="project.demo" target="_blank" class="bg-secondary text-light p-2 rounded-md hover:bg-brand hover:shadow-md hover:shadow-white ">Demo</a>
                     <!-- <a v-if="project.isDemo" href="" class="bg-secondary text-light p-2 rounded-md hover:bg-brand hover:shadow-md hover:shadow-white ">Code</a> -->
                 </div>
