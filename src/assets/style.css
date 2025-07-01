@@ -34,6 +34,9 @@
     outline: 1px solid var(--secondary);
   }
 
+  .btn-outline{
+    @apply focus:outline focus:outline-[2px] focus:outline-brand p-1 rounded-md;
+  }
 }
 
 @layer utilities {
@@ -60,7 +63,7 @@
   --brand: #768C9E;
   --primary: #1E1E1E;
   --secondary: #121212;
-  --third: #202127;
+  --third: #111827;
   --hover: #A27B5C;
   --dark-primary: #1E1E1E;
   --dark-secondary: #121212;

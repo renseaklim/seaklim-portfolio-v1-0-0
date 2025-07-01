@@ -4,8 +4,8 @@
     <header class="fixed top-0 h-14 w-full z-50" id="header">
         <nav class="max-w-[95%] mx-auto lg:px-5 flex items-center justify-between h-full">
             <a href="/" class="font-semibold text-brand text-xl">SEAKLIM</a>
-            <button class="md:hidden" @click="toggleHiddleMenu">
-                <i class="fa-solid fa-bars text-brand text-xl" id="menu-icon"></i>
+            <button class="md:hidden btn-outline" @click="toggleHiddleMenu">
+                <i class="fa-solid fa-bars text-brand text-2xl " id="menu-icon"></i>
             </button>
             <ul id="nav-item" class="nav-item flex items-center gap-6 transition-all duration-700
             max-md:absolute max-md:flex-col max-md:h-fit -top-[1000%] left-0 max-md:w-full 
