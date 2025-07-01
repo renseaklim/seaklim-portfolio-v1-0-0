@@ -1,5 +1,5 @@
 <template>
-    <div class="container max-w-screen-xl flex flex-col items-center py-10 gap-8" id="projects">
+    <div class="container max-w-screen-xl flex flex-col items-center py-10 gap-8" id="projects"  data-aos="fade-up" data-aos-delay="500">
         <div class="relative">
             <p class="font-bold text-secondary dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">Projects
             </p>

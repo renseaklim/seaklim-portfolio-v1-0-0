@@ -1,5 +1,5 @@
 <template>
-    <section class="dark:bg-gray-950/50 py-12 px-4 md:px-8 lg:px-16">
+    <section class="dark:bg-gray-950/50 py-12 px-4 md:px-8 lg:px-16"  data-aos="fade-up" data-aos-delay="500">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
             <div>

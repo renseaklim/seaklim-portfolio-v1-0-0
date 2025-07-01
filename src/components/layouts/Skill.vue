@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-yellow-700/10 dark:bg-slate-950/30 py-20" id="skill">
+    <section class="bg-yellow-700/10 dark:bg-slate-950/30 py-20" id="skill"  data-aos="fade-up" data-aos-delay="500">
         <div class="container max-w-screen-xl flex flex-col items-center justify-center mx-auto gap-9">
             <div class="relative">
                 <p class="font-bold text-light dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">Skills</p>
