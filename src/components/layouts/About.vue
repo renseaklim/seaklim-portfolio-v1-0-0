@@ -14,7 +14,7 @@
                     <p class="font-bold text-brand text-9xl max-xl:text-7xl max-lg:text-5xl">About me</p>
                     <p class="font-bold text-brand text-9xl max-xl:text-7xl max-lg:text-5xl text-stroke absolute top-1">About me</p>
                 </div>
-                <p class="text-brand hover:text-black dark:hover:text-brand text-xl p-1 text-balance max-lg:text-lg max-md:text-sm max-md:text-center">
+                <p class="text-brand hover:text-black dark:hover:text-brand text-xl p-1 text-balance max-lg:text-base max-md:text-sm max-md:text-center">
                     <i class="fa-solid fa-quote-left"></i> I am an enthusiastic and detail-oriented Web Developer.
                      I am proficient in building responsive and interactive web
                     applications, with experience in developing both front-end and back-end features through academic
