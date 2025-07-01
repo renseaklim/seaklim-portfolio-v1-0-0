@@ -1,5 +1,5 @@
 <template>
-    <div class="container max-w-screen-xl flex flex-col items-center py-10 gap-8" id="projects"  data-aos="fade-up" data-aos-delay="500">
+    <div class="container max-w-screen-xl flex flex-col items-center py-10 gap-8" id="projects"  data-aos="fade-up" data-aos-delay="400">
         <div class="relative">
             <p class="font-bold text-secondary dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">Projects
             </p>
@@ -8,13 +8,14 @@
             </p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
-            <div v-for="(project, index) in projects" :key="index" class="relative group rounded-xl bg-light 
-             overflow-hidden shadow-md hover:shadow-[7px_-7px_0px_0px_var(--secondary)] transition-all duration-300">
+            <div v-for="(project, index) in projects" :key="index" class="relative group rounded-xl bg-light dark:bg-[#202127]
+             overflow-hidden shadow-md hover:shadow-[7px_-7px_0px_0px_var(--secondary)] 
+             dark:hover:shadow-[7px_-7px_0px_0px_var(--brand)] transition-all duration-300">
                 <img :src="project.img" class="w-full" alt="">
-                <div class="p-3 flex flex-col items-between">
-                    <p class="text-brand font-semibold text-lg">{{ project.name }}</p>
-                    <p class="text-brand">{{ project.desc }}</p>
-                    <p class="text-brand font-semibold text-lg">Tech Stacks:</p>
+                <div class="p-3 flex flex-col items-between text-brand">
+                    <p class="font-semibold text-lg">{{ project.name }}</p>
+                    <p>{{ project.desc }}</p>
+                    <p class="font-semibold text-lg">Tech Stacks:</p>
                     <div class="flex items-center gap-3 mt-3">
                         <template v-for="techName in project.tech" :key="techName">
                             <img alt="" class="w-7 h-w-7" v-for="(item, index) in techStack.filter(t => t.name === techName)" :key="index" :src="item.path" >
