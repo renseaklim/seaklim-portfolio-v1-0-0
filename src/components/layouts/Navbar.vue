@@ -1,5 +1,5 @@
 <template>
-    <div id="cursor-glow" class="pointer-events-none -z-10">
+    <div id="cursor-glow" class="pointer-events-none -z-10 max-md:hidden">
     </div>
     <header class="fixed top-0 h-14 w-full z-50" id="header">
         <nav class="max-w-[95%] mx-auto lg:px-5 flex items-center justify-between h-full">
