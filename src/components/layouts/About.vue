@@ -3,7 +3,7 @@
         <div class="container max-w-screen-xl h-full flex max-md:flex-col items-center justify-center gap-11 z-10">
             <div class="relative">
                 <div class="absolute w-full h-full peer z-10 cursor-pointer"></div>
-                <img src="@/assets/img/presentation-img2.jpg" alt="" class="max-w-[30rem] max-lg:max-w-[25rem] max-md:w-[20rem] max-sm:w-[15rem] rounded-2xl shadow-md peer-hover:rotate-12
+                <img src="@/assets/img/presentation-img2.jpg" alt="" class="max-w-[30rem] max-lg:max-w-[25rem] max-md:w-[17rem] rounded-2xl shadow-md peer-hover:rotate-12
                 transition-transform duration-500">
                 <img src="@/assets/img/presentation-img1.jpg" alt=""
                     class="max-w-[30rem] max-lg:max-w-[25rem] max-md:w-[17rem] rounded-2xl shadow-md -z-10
