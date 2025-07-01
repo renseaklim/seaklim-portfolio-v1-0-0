@@ -1,5 +1,5 @@
 <template>
-    <section class="h-[60vh] md:h-[95vh] min-h-screen bg-yellow-700/20 dark:bg-slate-950/50 z-10 relative" id="about">
+    <section class="md:h-[95vh] min-h-screen bg-yellow-700/20 dark:bg-slate-950/50 z-10 relative" id="about">
         <div class="container max-w-screen-xl h-full flex max-md:flex-col items-center justify-center gap-11 z-10">
             <div class="relative">
                 <div class="absolute w-full h-full peer z-10 cursor-pointer"></div>
@@ -14,7 +14,7 @@
                     <p class="font-bold text-brand text-9xl max-xl:text-7xl max-lg:text-5xl">About me</p>
                     <p class="font-bold text-brand text-9xl max-xl:text-7xl max-lg:text-5xl text-stroke absolute top-1">About me</p>
                 </div>
-                <p class="text-brand hover:text-black dark:hover:text-brand text-xl p-1 text-balance max-lg:text-lg max-md:text-base max-sm:text-center">
+                <p class="text-brand hover:text-black dark:hover:text-brand text-xl p-1 text-balance max-lg:text-lg max-md:text-sm max-sm:text-center">
                     <i class="fa-solid fa-quote-left"></i> I am an enthusiastic and detail-oriented Web Developer.
                      I am proficient in building responsive and interactive web
                     applications, with experience in developing both front-end and back-end features through academic
