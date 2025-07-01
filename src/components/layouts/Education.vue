@@ -1,5 +1,5 @@
 <template>
-    <section class=" bg-yellow-800/30 dark:bg-slate-950/30 py-10" id="education"  data-aos="fade-up" data-aos-delay="400">
+    <section class=" bg-yellow-800/30 dark:bg-slate-950/30 py-10" id="education">
         <div class="container max-w-screen-xl flex flex-col items-center justify-center gap-9">
             <div class="relative">
                 <p class="font-bold text-light dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">

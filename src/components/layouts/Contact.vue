@@ -1,5 +1,5 @@
 <template>
-    <section class="dark:bg-gray-950/50 py-12 px-4 md:px-8 lg:px-16"  data-aos="fade-up" data-aos-delay="400">
+    <section class="dark:bg-gray-950/50 py-12 px-4 md:px-8 lg:px-16">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
             <div>
@@ -39,7 +39,7 @@
 
                 <div class="flex space-x-5 mt-6 text-xl text-brand">
                     <a href="https://www.facebook.com/seak.lim.10" target="_blank" class="hover:text-blue-600"><i class="fab fa-facebook"></i></a>
-                    <a href="https:/t.me/seaklim02" target="_blank" class="hover:text-blue-400"><i class="fab fa-telegram"></i></a>
+                    <a href="https://t.me/seaklim02" target="_blank" class="hover:text-blue-400"><i class="fab fa-telegram"></i></a>
                     <a href="https://www.linkedin.com/in/ren-seaklim" target="_blank" class="hover:text-blue-700"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/renseaklim" target="_blank" class="hover:text-gray-800 dark:hover:text-white"><i class="fab fa-github"></i></a>
                 </div>
