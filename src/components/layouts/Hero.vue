@@ -39,7 +39,7 @@
 
 <script setup>
 function openResume() {
-    window.location('https://drive.google.com/file/d/1zG2qpcBKY84Zw-9VBPpn3I7xvvNcOa1B/view?usp=sharing'); // Opens in new tab
+    window.location.href = 'https://drive.google.com/file/d/1zG2qpcBKY84Zw-9VBPpn3I7xvvNcOa1B/view?usp=sharing'; 
 }
 
 </script>
