@@ -1,5 +1,5 @@
 <template>
-    <div class="hero h-screen" id="home">
+    <div class="hero h-[90vh] md:h-screen" id="home">
         <div class="container h-full max-w-screen-xl flex items-center justify-between 
         max-md:flex-col max-md:justify-end max-md:relative">
             <div
