@@ -39,7 +39,7 @@
 
 <script setup>
 function openResume() {
-    window.open('src/assets/img/REN_Seaklim_resume.pdf', '_blank'); // Opens in new tab
+    window.location('https://drive.google.com/file/d/1zG2qpcBKY84Zw-9VBPpn3I7xvvNcOa1B/view?usp=sharing'); // Opens in new tab
 }
 
 </script>
