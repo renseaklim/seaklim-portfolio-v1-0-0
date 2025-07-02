@@ -1,5 +1,5 @@
 <template>
-    <div class="container max-w-screen-xl flex flex-col items-center py-10 gap-8" id="projects">
+    <div class="container max-w-screen-xl flex flex-col items-center py-10 gap-8" :id="id">
         <div class="relative">
             <p class="font-bold text-secondary dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">Projects
             </p>
@@ -49,6 +49,8 @@ import greenchainkh from '@/assets/img/projects/greenchainkh.png';
 import kassar from '@/assets/img/projects/kassar.png';
 import portfolio from '@/assets/img/projects/portfolio-v1.png';
 import pruttika from '@/assets/img/projects/pruttika.png';
+defineProps(['id']);
+
 const projects = [
     {
         name: "GreenChainKH - Agricultural Website",

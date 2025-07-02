@@ -1,6 +1,6 @@
 <template>
     <section class="h-[60vh] md:h-[95vh] min-h-screen bg-yellow-700/20 dark:bg-slate-950/50 z-10 relative" 
-     id="about">
+     :id="id">
         <div class="container max-w-screen-xl h-full flex max-md:flex-col items-center justify-center gap-11 z-10">
             <div class="relative">
                 <div class="absolute w-full h-full peer z-10 cursor-pointer"></div>
@@ -27,4 +27,6 @@
     </section>
 </template>
 <script setup>
+defineProps(['id']);
+
 </script>

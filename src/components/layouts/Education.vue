@@ -1,5 +1,5 @@
 <template>
-    <section class=" bg-yellow-800/30 dark:bg-slate-950/30 py-10" id="education">
+    <section class=" bg-yellow-800/30 dark:bg-slate-950/30 py-10" :id="id">
         <div class="container max-w-screen-xl flex flex-col items-center justify-center gap-9">
             <div class="relative">
                 <p class="font-bold text-light dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">
@@ -12,7 +12,7 @@
 
             <div class="mx-auto">
                 <ul class="">
-                    <li class="group relative py-6" v-for="(edu, index) in education" :key="index">
+                    <li class="group relative py-6" v-for="(edu, index) in educationArr" :key="index">
                         <div
                             class="absolute inset-0 w-1 bg-light group-first:top-1/2 group-last:bottom-1/2 block">
                         </div>
@@ -47,7 +47,9 @@
     </section>
 </template>
 <script setup>
-let education = [
+defineProps(['id']);
+
+let educationArr = [
     {
         date: "2022 - 2025",
         academy: "Bachelor of Computer Science",

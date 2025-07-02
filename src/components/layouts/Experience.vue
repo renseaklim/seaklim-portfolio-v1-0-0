@@ -1,6 +1,6 @@
 <template>
     <section class="container max-w-screen-xl flex flex-col items-center justify-center py-20 gap-9" 
-    id="experience">
+    :id="id">
         <div class="relative">
             <p class="font-bold text-secondary dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">Experience</p>
             <p class="font-bold text-secondary text-8xl max-xl:text-7xl max-lg:text-5xl text-stroke absolute top-1">
@@ -28,4 +28,7 @@
     </section>
 </template>
 
-<style script></style>
+<script setup>
+defineProps(['id']);
+
+</script>

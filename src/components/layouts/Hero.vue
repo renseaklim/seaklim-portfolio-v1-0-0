@@ -1,5 +1,5 @@
 <template>
-    <div class="hero h-[90vh] md:h-screen" id="home" data-aos="fade-up"
+    <div class="hero h-[90vh] md:h-screen" :id="id" data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" data-aos-delay="500">
         <div class="container h-full max-w-screen-xl flex items-center justify-between 
         max-md:flex-col max-md:justify-end max-md:relative">
@@ -42,5 +42,6 @@
 function openResume() {
     window.open('https://drive.google.com/file/d/1zG2qpcBKY84Zw-9VBPpn3I7xvvNcOa1B/view?usp=sharing', '_blank');
 }
+defineProps(['id']);
 
 </script>

@@ -57,13 +57,19 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 let selectedTheme = ref();
-const urlHash = ref('');
+
+defineProps({
+  urlHash: {
+    type: String,
+    required: true
+  }
+});
 
 const linkArray = [
     { name: 'Home', path: '#home' },
     { name: 'About', path: '#about' },
     { name: 'Experience', path: '#experience' },
-    { name: 'Skills', path: '#skill' },
+    { name: 'Skills', path: '#skills' },
     { name: 'Education', path: '#education' },
     { name: 'Projects', path: '#projects' },
     { name: 'Contact', path: '#contact' },
@@ -91,12 +97,12 @@ onMounted(() => {
     });
     cursorPointerStyle();
     //check url for navlink
-    const checkHash = () => {
-        urlHash.value = window.location.hash;
-    };
+    // const checkHash = () => {
+    //     urlHash.value = window.location.hash;
+    // };
 
-    checkHash();
-    window.addEventListener('hashchange', checkHash);
+    // checkHash();
+    // window.addEventListener('hashchange', checkHash);
 });
 
 const cursorPointerStyle = () => {
