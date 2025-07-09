@@ -1,13 +1,13 @@
 <template>
     <div class="container max-w-screen-xl flex flex-col items-center py-10 gap-8" :id="id">
-        <div class="relative">
+        <div class="relative"  data-aos="fade-up" data-aos-duration="600">
             <p class="font-bold text-secondary dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">Projects
             </p>
             <p class="font-bold text-secondary text-8xl max-xl:text-7xl max-lg:text-5xl text-stroke absolute top-1">
                 Projects
             </p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 "  data-aos="fade-up" data-aos-duration="700">
             <div v-for="(project, index) in projects" :key="index" class="relative group rounded-xl bg-light dark:bg-[#202127]
              overflow-hidden shadow-md hover:shadow-[7px_-7px_0px_0px_var(--secondary)] 
              dark:hover:shadow-[7px_-7px_0px_0px_var(--brand)] transition-all duration-300">

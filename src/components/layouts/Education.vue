@@ -1,7 +1,7 @@
 <template>
     <section class=" bg-yellow-800/30 dark:bg-slate-950/30 py-10" :id="id">
         <div class="container max-w-screen-xl flex flex-col items-center justify-center gap-9">
-            <div class="relative">
+            <div class="relative"  data-aos="fade-up" data-aos-duration="600">
                 <p class="font-bold text-light dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">
                     Education
                 </p>
@@ -10,7 +10,7 @@
                 </p>
             </div>
 
-            <div class="mx-auto">
+            <div class="mx-auto"  data-aos="fade-up" data-aos-duration="700">
                 <ul class="">
                     <li class="group relative py-6" v-for="(edu, index) in educationArr" :key="index">
                         <div
