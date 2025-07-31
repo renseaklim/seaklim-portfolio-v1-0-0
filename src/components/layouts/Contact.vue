@@ -1,6 +1,6 @@
 <template>
     <section class="dark:bg-gray-950/50 py-12 px-4 md:px-8 lg:px-16" :id="id">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10" >
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10"  data-aos="fade-up" data-aos-duration="1000" >
 
             <div>
                 <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-6">Send me a message</h2>

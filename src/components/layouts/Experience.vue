@@ -1,13 +1,13 @@
 <template>
     <section class="container max-w-screen-xl flex flex-col items-center justify-center py-20 gap-9" 
     :id="id">
-        <div class="relative" >
+        <div class="relative"  data-aos="fade-up" data-aos-duration="500">
             <p class="font-bold text-secondary dark:text-brand text-8xl max-xl:text-7xl max-lg:text-5xl">Experience</p>
             <p class="font-bold text-secondary text-8xl max-xl:text-7xl max-lg:text-5xl text-stroke absolute top-1">
                 Experience
             </p>
         </div>
-        <div class="flex gap-6 items-center justify-center ">
+        <div class="flex gap-6 items-center justify-center "  data-aos="fade-up" data-aos-duration="700">
             <div class="left flex flex-col items-center ">
                 <img src="@/assets/img/ant-logo.png" alt=""
                 class="max-w-[13rem] max-md:w-[8rem] max-sm:w-[6rem] shadow-md rounded-xl max-md:rounded-md">
