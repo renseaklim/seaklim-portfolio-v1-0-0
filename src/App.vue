@@ -10,7 +10,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 onMounted(() => {
   nextTick(() => {
-    AOS.init();
+    AOS.init({ once: true });
     AOS.refresh();
   });
 });
