@@ -15,9 +15,15 @@ app.use(router)
 
 app.mount('#app')
 onMounted(() => {
+  AOS.init({
+    once: true, // only animate once
+    duration: 800,
+    delay: 100,
+  });
+
+  // Re-initialize when navigating or refreshing
   nextTick(() => {
-    AOS.init();
-    AOS.refresh();
+    AOS.refreshHard(); // force reflow
   });
 });
 
