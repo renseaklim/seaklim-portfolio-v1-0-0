@@ -14,5 +14,10 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
-AOS.init();
+onMounted(() => {
+  nextTick(() => {
+    AOS.init();
+    AOS.refresh();
+  });
+});
 
