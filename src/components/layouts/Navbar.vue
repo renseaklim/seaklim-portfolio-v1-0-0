@@ -55,7 +55,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, nextTick } from 'vue';
 let selectedTheme = ref();
 
 defineProps({
@@ -75,7 +75,8 @@ const linkArray = [
     { name: 'Contact', path: '#contact' },
 ];
 
-onMounted(() => {
+onMounted(async () => {
+    await nextTick();
     const currentPath = window.location.hash;
     if (currentPath) {
         const element = document.querySelector(currentPath);
