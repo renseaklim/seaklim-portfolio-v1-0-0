@@ -1,17 +1,17 @@
-
 <template>
   <RouterView />
 </template>
 
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import { onMounted, nextTick } from 'vue'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import { RouterLink, RouterView } from "vue-router";
+import { onMounted, nextTick } from "vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
 onMounted(() => {
   nextTick(() => {
     AOS.init({ once: true });
     AOS.refresh();
+    window.scrollTo(0, 0); // Optional for Safari
   });
 });
 </script>
