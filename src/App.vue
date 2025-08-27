@@ -9,9 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 onMounted(() => {
   nextTick(() => {
-    AOS.init({
-      disable: true,
-    });
+    // AOS.init()
     // AOS.refresh();
   });
 });

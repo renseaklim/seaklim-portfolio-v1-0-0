@@ -1,7 +1,7 @@
 <template>
     <div class="hero h-[90vh] md:h-screen" :id="id">
         <div class="container h-full max-w-screen-xl flex items-center justify-between 
-        max-md:flex-col max-md:justify-end max-md:relative"  data-aos="fade-up" data-aos-duration="700">
+        max-md:flex-col max-md:justify-end max-md:relative" >
             <div
                 class="right flex-1 max-sm:flex-grow-0 max-md:text-center
              max-md:absolute max-sm:top-16 max-md:top-[70%] max-md:left-50 
