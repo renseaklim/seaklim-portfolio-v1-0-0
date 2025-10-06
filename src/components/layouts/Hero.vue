@@ -12,7 +12,7 @@
                 max-sm:font-semibold max-sm:py-2 max-sm:text-6xl max-lg:text-7xl max-xl:text-8xl">Jr Web Developer
                 </p>
                 <div class="flex justify-end max-md:justify-center items-center gap-2">
-                    <p class="text-brand max-md:text-sm text-2xl font-medium text-end">Based in Phnom Penh, CAMBODIA</p>
+                    <p class="text-brand max-md:text-base max-sm:text-sm text-2xl font-medium text-end">Based in Phnom Penh, CAMBODIA</p>
                     <img src="@/assets/icons/cambodia.png" class="w-7 h-7" alt="">
                 </div>
                 <div class="w-100 flex justify-center  md:justify-end py-2">
