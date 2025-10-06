@@ -6,13 +6,13 @@
                 class="right flex-1 max-sm:flex-grow-0 max-md:text-center
              max-md:absolute max-sm:top-16 max-md:top-[70%] max-md:left-50 
             max-md:z-20  dark:max-md:bg-slate-500 max-md:bg-slate-200/80 dark:max-sm:bg-transparent max-sm:bg-transparent max-sm:static">
-                <p class="text-brand text-xl max-sm:text-sm font-bold"><span class="text-purple-400">Hey</span>, I'm
+                <p class="text-brand text-xl max-sm:text-sm font-semibold"><span class="text-purple-400">Hey</span>, I'm
                     Seaklim👋🏻</p>
                 <p class="gradient-text text-9xl font-extrabold 
                 max-sm:font-semibold max-sm:py-2 max-sm:text-6xl max-lg:text-7xl max-xl:text-8xl">Jr Web Developer
                 </p>
                 <div class="flex justify-end max-md:justify-center items-center gap-2">
-                    <p class="text-brand max-sm:text-sm text-2xl font-bold text-end">Based in Phnom Penh, CAMBODIA</p>
+                    <p class="text-brand max-sm:text-sm text-2xl font-medium text-end">Based in Phnom Penh, CAMBODIA</p>
                     <img src="@/assets/icons/cambodia.png" class="w-7 h-7" alt="">
                 </div>
                 <div class="w-100 flex justify-center  md:justify-end py-2">
